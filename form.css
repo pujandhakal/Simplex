@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+body{
+    background-color: aliceblue;
+}
+.container{
+    position: absolute;
+    left: 27%;
+    top: 6%;
+    margin-bottom: 20%;
+    border: 2px solid rgb(186, 176, 255);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    transition: 0.5s;
+}
+.container:hover{
+    box-shadow: 2px 3px 14px 4px rgb(93 181 253);;
+}
+h1{
+    position: relative;
+    padding-bottom: 2%;
+    left: 23%;
+}
+.details{
+    font-size: 20px;
+    
+}
+.input-box{
+    margin-left: 2%;
+    padding: 2%;
+}
+.input-box input{
+    height: 45px;
+    width: 410px;
+    border-radius: 8px;
+}
+.input-box2 details{
+    font-size: 20px;
+}
+.input-box2{
+    margin-left: 2%;
+    padding: 2%;
+}
+.input-box2 input{
+    margin: 20px;
+    
+}
+.button{
+    position: relative;
+    left: 2%;
+    margin-bottom: 2%;
+}
+.button input{
+    font-size: 20px;
+    padding: 3px 13px;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.button input:hover{
+    background-color: black;
+    border: 1px solid gray;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 3px 9px 1px black;
+}
+
+
